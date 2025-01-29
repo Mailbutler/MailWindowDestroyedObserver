@@ -24,9 +24,25 @@
 		32F912802D4A98DA0033B721 /* AXSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AXSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/AXSwift-gzonkdqxwwxgrdhiyfrakvttowbg/Build/Products/Release/AXSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		32F912AB2D4AB5970033B721 /* Exceptions for "MailWindowDestroyedObserver" folder in "Embed Frameworks" phase from "MailWindowDestroyedObserver" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				Carthage/Build/AXSwift.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 32F912902D4A99800033B721 /* Embed Frameworks */;
+			membershipExceptions = (
+				Carthage/Build/AXSwift.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		32F9125D2D4A8B8B0033B721 /* MailWindowDestroyedObserver */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				32F912AB2D4AB5970033B721 /* Exceptions for "MailWindowDestroyedObserver" folder in "Embed Frameworks" phase from "MailWindowDestroyedObserver" target */,
+			);
 			path = MailWindowDestroyedObserver;
 			sourceTree = "<group>";
 		};
